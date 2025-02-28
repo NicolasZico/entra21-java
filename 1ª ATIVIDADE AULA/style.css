@@ -1,0 +1,62 @@
+h1{
+    background-color: rgb(255, 139, 139);
+    color: aliceblue;
+    font-size: 50px;
+    text-align: center;
+    border-radius: 15px;
+    font-family: sans-serif;
+}
+h4{
+    background-color: rgb(187, 122, 122);
+    color: aliceblue;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 10px;
+    font-family:sans-serif;
+}
+
+p{
+    text-align: center;
+     font-size: 20px;
+     font-family: sans-serif;
+     border-left: 50px solid rgb(255, 139, 139);
+     border-right: 50px solid rgb(255, 139, 139);
+     border-radius: 15px;
+}
+div{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color:rgb(255, 139, 139);
+    color: aliceblue;
+    border-radius: 15px;
+}
+button{
+    text-align: center;
+    color: aliceblue;
+    background-color: rgb(187, 122, 122);
+    border-radius: 15px;
+    font-size: 18px;
+    font-family: sans-serif;
+    border: solid 3px rgb(187, 122, 122);
+}
+button:hover{
+    text-align: center;
+    color: rgb(187, 122, 122);
+    background-color: aliceblue;
+    border-radius: 15px;
+    font-size: 18px;
+    font-family: sans-serif;
+    border: solid 3px rgb(187, 122, 122);
+}
+h2{
+    text-align: center;
+    color: aliceblue;
+    background-color: rgb(255, 139, 139);
+    font-family: sans-serif;
+    font-size: 80px;
+    height: 500px;
+    padding-top: 400px;
+}
+
+
