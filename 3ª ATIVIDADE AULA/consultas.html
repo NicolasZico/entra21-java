@@ -14,23 +14,42 @@
          <li><a href="consultas.html">Consultas</a></li>
          <li><a href="fotos.html">Fotos</a></li>
        </nav><br>
-       <h1>Próximas Consultas</h1>
-      <div class="flex-container">
+       <h1>Próximas Consultas</h1><br>
+      <div class="container">
+        <div>Raiam Santos</div>
+        <div>18/03</div>
+        <div>14:30</div>
+        <div>Vinicius Jr</div>
+        <div>21/03</div>
+        <div>09:45</div>
+        <div>Michael Jackson</div>
+        <div>26/03</div>
+        <div>20:00</div>
+        <div>Adam Sandler</div>
+        <div>28/03</div>
+        <div>15:15</div>
+        
 
-        <div><p>Jéssico Soares </p></div>
-        <div> <p>Raiam Santos</p></div>
-         <div> <p> Vinícius Júnior</p></div>
-         
-          
-        </div>
+
+     
        <style>
-        h1{
-        color: #0d1b2a;
+        .container{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-template-rows: auto auto auto;
+          gap: 10px
+
         }
-.flex-container{
-    display: flex;
-flex-direction: wrap;
-}
+     .container > div {
+        background-color: #778da9;
+        padding: 13px;
+        border: 2px solid #0d1b2a;
+        border-radius: 7px;
+        font-family: arial;
+     font-size: 17px;
+     color: #e0e1dd;
+     text-align: center;
+    }
        </style>
 </body>
 </html>
